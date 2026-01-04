@@ -11,10 +11,7 @@
 import { ref } from "vue"
 import Preview from "./components/Preview.vue"
 
-const markdown = ref(`\`\`\`js
-const sum = (a, b) => a + b
-console.log("Hello World")
-\`\`\``)
+const markdown = ref(`# Hello World!`)
 </script>
 
 <style>
